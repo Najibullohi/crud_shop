@@ -13,4 +13,4 @@ def get_specific_category():
         return products
 
 
-print(get_specific_category)
+print(get_specific_category())
