@@ -13,4 +13,3 @@ def get_specific_category(category_name):
         return products
 
 
-print(get_all_category())

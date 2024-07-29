@@ -22,6 +22,4 @@ def get_limited_carts(limit):
     response = requests.get(f"https://fakestoreapi.com/carts/{limit}")
     if response.status_code == 200:
         carts = response.json()
-        return carts
-
-print(get_all_carts())     
+        return carts     
